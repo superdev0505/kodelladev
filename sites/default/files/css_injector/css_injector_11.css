@@ -1,0 +1,255 @@
+article > header {
+    display: none;
+}
+
+.field-name-field-bio-content {
+    position: absolute;
+    top: 5%;
+    right: 0;
+    padding: 6em;
+    text-align: center;
+}
+
+.field-name-field-bio-content .field-item > div:first-child {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 20px 0;
+}
+
+.field-name-field-bio-content .field-item > div:first-child h1, 
+.field-name-field-bio-content .field-item > div:first-child h2, 
+.field-name-field-bio-content .field-item > div:first-child h3 {
+    margin: 0;
+}
+
+.field-name-field-bio-content .field-item > div:first-child h1 {
+    letter-spacing: 0.1em;
+}
+
+.field-name-field-bio-content .field-item > div:last-child h2 {
+    margin: 25px;
+    letter-spacing: 0.1em;
+}
+.field-name-field-submenu-list {
+    text-align: center;
+    margin-top: -122px;
+}
+.field-name-field-submenu-list .field-items {
+    display: inline-flex;
+    padding: 40px 80px ;
+}
+.field-name-field-submenu-list .field-item {
+    font-size: 30px;
+    padding: 0 45px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+.field-name-field-about-us-content .field-items {
+    position: absolute;
+    top: 19%;
+    right: 0;
+    padding: 13em;
+    text-align: center;
+}
+.field-name-field-about-us-content .field-item > h2 {
+    padding: 40px;
+    border-bottom: 1px solid;
+}
+
+.field-name-field-follow-us-images {
+    padding-bottom: 25px;
+}
+
+.field-name-field-follow-us-images .field-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+
+.field-name-field-follow-us-images .field-item.even img {
+    float: right;
+}
+
+.field-name-field-follow-us-content .field-item {
+    text-align: center;
+    padding: 25px;
+}
+
+.field-name-field-free-of-story-content {
+    padding: 1em;
+}
+.field-name-field-free-of-story-content .field-item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em 40%;
+    margin-top: -35%;
+}
+
+.field-name-field-free-of-story-content .field-item p:nth-child(odd) {
+    text-align: right;
+}
+
+.field-name-field-free-of-story-content .field-item p {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.field-name-field-feature-images .field-items {
+    display: inline-flex;
+}
+
+.field-name-field-feature-images .field-items .field-item {
+    padding: 15px;
+    position: relative;
+}
+
+.field-name-field-feature-images .field-item > div {
+    position: absolute;
+    bottom: 3em;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.field-name-field-feature-contents {
+    display: none;
+    
+}
+
+.field-name-field-feature-images .field-item > div h2,
+.field-name-field-feature-images .field-item > div h3,
+.field-name-field-feature-images .field-item > div p {
+    margin: 0;
+}
+
+@media screen and (min-width: 2300px) {
+    .field-name-field-bio-content {
+        padding: 15em;
+    }
+    .field-name-field-about-us-content .field-items {
+        padding: 19em;
+    }
+    .field-name-field-submenu-list {
+        margin-top: -144px;
+    }
+    .field-name-field-submenu-list .field-items {
+        padding: 50px 80px;;
+    }
+}
+@media screen and (max-width: 1600px) {
+    .field-name-field-bio-content {
+        padding: 5em;
+        top: 4%;
+    }
+    .field-name-field-about-us-content .field-items {
+        top: 18%;
+        padding: 7em;
+    }
+    .field-name-field-submenu-list {
+        margin-top: -84px;
+    }
+    .field-name-field-submenu-list .field-items {
+        padding: 30px 80px;;
+    }
+    .field-name-field-submenu-list .field-items .field-item {
+        font-size: 18px;
+    }
+    .field-name-field-feature-images .field-item > div {
+        bottom: 0px;
+    }
+    .field-name-field-feature-images .field-item > div h2 {
+        font-size: 35px;
+        margin: 0;
+    }
+    .field-name-field-feature-images .field-item > div h3 {
+        font-size: 24px;
+        margin: 0;
+    }
+    .field-name-field-feature-images .field-item > div p {
+        margin: 0;
+    }
+    .field-name-field-feature-images .field-item > div {
+        padding: 2em;
+        height: 240px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .field-name-field-feature-images .field-items {
+        display: block;
+    }
+    .field-name-field-feature-images .field-item > div h2 {
+        font-size: 40px;
+        margin: 0;
+    }
+    .field-name-field-feature-images .field-item > div h3 {
+        font-size: 24px;
+        margin: 0;
+    }
+    .field-name-field-feature-images .field-item > div p {
+        margin: 0;
+    }
+    .btn-colorproof {
+        padding: 5px 25px;
+    }
+    .field-name-field-free-of-story-content .field-item {
+        grid-gap: 0.5em 40%;
+        margin-top: -53%;
+    }
+    .field-name-field-free-of-story-content .field-item > p {
+        font-size: 10px;
+        margin: 0;
+    }
+    .field-name-field-bio-content .field-item > div:first-child {
+        padding: 10px 0;
+    }
+    .field-name-field-bio-content .field-item > div h1 {
+        font-size: 22px;
+    }
+    
+    .field-name-field-bio-content .field-item > div h2 {
+        font-size: 18px;
+    }
+    .field-name-field-bio-content .field-item > div:last-child h2 {
+        margin: 10px;
+    }
+    .field-name-field-bio-content .field-item > div h3 {
+        font-size: 13px;
+    }
+    .field-name-field-bio-content {
+        padding: 1em;
+        top: 0.5%;
+    }
+    .field-name-field-submenu-list {
+        margin-top: -28px;
+    }
+    .field-name-field-submenu-list .field-items {
+        padding: 10px 20px;;
+    }
+    .field-name-field-submenu-list .field-items .field-item {
+        font-size: 6px;
+        padding: 0 10px;
+    }
+    .field-name-field-about-us-content .field-items {
+        width: 40%;
+        top: 7%;
+        color: black;
+        padding: 0.5em;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .field-name-field-about-us-content .field-item > h2 {
+        padding: 5px;
+        font-size: 20px;
+    }
+    .field-name-field-about-us-content .field-item > p {
+        font-size: 10px;
+    }
+    .field-name-field-about-us-content .field-item .btn-colorproof {
+        padding: 5px 16px;
+        font-size: 10px;
+    }
+}
+

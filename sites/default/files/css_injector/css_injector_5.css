@@ -1,0 +1,343 @@
+.field-name-shopify-product-images .field-items .field-item:not(:first-child) {
+    display: none;
+}
+.region.region-content section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.field-name-shopify-product-images {
+    width: 50%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.shopify-add-to-cart-button {
+    background-color: transparent;
+    color: black;
+    border-color: black;
+    border-radius: 0px;
+}
+button.shopify-add-to-cart-button:hover {
+    background-color: transparent;
+    color: black;
+    border-color: black;
+    border-radius: 0px;
+}
+
+
+.entity-property-title {
+    font-size: 48px;
+    font-family: 'Raleway';
+}
+
+.entity-property-title .entity-property-label {
+    display: none;
+}
+
+.entity-shopify-product .content > div:not(.field-name-shopify-product-images), .entity-shopify-product .content > form {
+    float: right;
+    width: 50%;
+}
+
+.entity-shopify-product form > div {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.entity-shopify-product form .form-item-options-0 {
+    order: 2;
+    flex: 1;
+}
+
+.entity-shopify-product form .shopify-price {
+    order: 1;
+    flex: 1 100%;
+    text-align: left;
+    font-size: 32px;
+}
+
+.entity-shopify-product form .form-item-quantity {
+    order: 3;
+    flex: 1;
+}
+.entity-shopify-product form .form-actions {
+    order: 4;
+    flex: 1;
+}
+
+#block-views-related-products-block div.field-name-field-related-products>.field-items>.field-item {
+    float: left;
+    width: calc(33.333333% - 30px);
+    background: #f4f4f4;
+    margin: 15px;
+}
+
+.product-title {
+    font-weight: bold;
+    height: 2rem;
+}
+
+
+
+.field.field-name-field-image.field-type-image img {
+    margin: 0 auto;
+}
+h2.field.field-name-title-field.field-type-text {
+    font-size: 32px;
+}
+div.field.field-type-commerce-price {
+    font-size: 32px;
+    font-family: Raleway;
+    margin-bottom: 1em;
+}
+div.commerce-product-sku {
+    font-size: 14px;
+    font-family: Raleway;
+}
+
+.form-item.form-item-product-id.form-type-select.form-group {
+    float: left;
+}
+
+.form-item.form-item-quantity.form-type-textfield.form-group {
+    float: left;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.form-item.form-group label {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    font-family: Raleway, sans-serif;
+    font-weight: 100;
+}
+
+.form-item.form-item-quantity.form-type-textfield.form-group input {
+    display: inline-block;
+    width: unset;
+    border-radius: 0px;
+    background: #eeeeee;
+    border: none;
+    box-shadow: none;
+    text-align: center;
+    padding: 8px 30px;
+    z-index: 10;
+}
+
+div.commerce-product-extra-field-sku {
+    margin-bottom: 0.5em;
+}
+
+.commerce-add-to-cart button.btn.btn-success.form-submit  {
+    display: inline-block;
+    border-radius: 0px;
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+    float: right;
+    margin-top: 18px;
+    font-weight: bold;
+}
+
+.commerce-add-to-cart .form-item-product-id .input-group *:not(select) {
+    display:none;
+}
+
+.commerce-add-to-cart .form-item-product-id .input-group {
+    display: inline-block;
+    position: initial;
+}
+
+div.commerce-buy-one-click-button-wrapper {
+    padding: 0 20px;
+    display: inline-block;
+    float: right;
+    margin-top: 18px;
+}
+
+button.commerce-buy-one-click-button {
+    border-radius: 0px;
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+}
+button.commerce-buy-one-click-button:hover {
+    background: transparent;
+    border-color: black;
+    color: black;
+}
+button.quantity-addon {
+    background: transparent;
+    border: none;
+    padding: 9px;
+    height: 40px;
+    font-weight: 600;
+    position: relative;
+}
+
+button.quantity-addon.quantity-minus {
+    margin-right: -27px;
+    z-index: 20;
+}
+button.quantity-addon.quantity-plus {
+    margin-left: -27px;
+    z-index: 20;
+}
+select.form-control.form-select {
+    width: unset;
+    background: #eee;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    display: inline-block;
+    -webkit-appearance: none;
+    padding: 8px 40px 8px 25px;
+}
+
+.form-item.form-item-product-id.form-type-select i {
+    margin-left: -16px;
+    pointer-events: none;
+}
+
+div.form-group {
+    display: inline-block;
+}
+
+#block-system-main form.commerce-add-to-cart{
+    margin-bottom: 6em;
+}
+
+#accordion .panel-default > .panel-heading {
+    background: transparent;
+    border: none;
+}
+
+.panel-group .panel {
+    border-radius: 0px;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+#accordion .panel-heading a i {
+    float: right;
+}
+
+#accordion .panel-heading a {
+    font-weight: 600;
+}
+
+.panel-group .panel-heading + .panel-collapse > .panel-body {
+    border: none;
+}
+
+#block-views-related-products-block {
+    margin: 4em 6em;
+    text-align: center;
+}
+
+#block-views-related-products-block .block-title {
+    margin-bottom: 0.75em;
+}
+
+/*#block-views-related-products-block td {*/
+/*    background-color: #f4f4f4;*/
+/*}*/
+
+
+
+.product-title a{
+    color: black;
+}
+#block-views-related-products-block .commerce-product-field-commerce-price .field-items {
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
+}
+
+#block-views-related-products-block .commerce-product-field-commerce-price .field-item {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+#block-views-related-products-block table {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#block-views-related-products-block .commerce-add-to-cart button.btn.btn-success.form-submit
+{
+    display: inline-block;
+    border-radius: 0px;
+    background: transparent;
+    border: none;
+    color: black;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 18px;
+    margin-top: 0;
+}
+#block-views-related-products-block div.commerce-buy-one-click-button-wrapper
+{
+    padding: 0 20px;
+    display: inline-block;
+    float: left;
+    margin-bottom: 18px;
+    margin-top: 0;
+}
+
+#block-views-related-products-block div.commerce-buy-one-click-button-wrapper button {
+    border: none;
+}
+#block-views-related-products-block .form-item.form-item-product-id {
+    display: none;
+}
+
+@media screen and (max-width: 1440px) {
+    .product-title {
+        font-size: 24px;
+    }
+    #block-views-related-products-block .commerce-product-field-commerce-price .field-item {
+        font-size: 20px;
+    }
+    #block-views-related-products-block .commerce-add-to-cart button.btn.btn-success.form-submit {
+        margin-right: 10px;
+    }
+    #block-views-related-products-block div.commerce-buy-one-click-button-wrapper {
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #block-views-related-products-block div.field-name-field-related-products>.field-items>.field-item {
+        width: calc(100% - 30px);
+    }
+    #block-views-related-products-block {
+        margin: 0;
+    }
+    #block-views-related-products-block .block-title {
+        font-size: 36px;
+    }
+    #block-views-related-products-block article > div {
+        padding: 1em;
+    }
+    #block-system-main article {
+        margin: 0;
+        padding: 1em;
+    }
+    #block-system-main form.commerce-add-to-cart {
+        margin-bottom: 9em;
+    }
+    #block-system-main .commerce-add-to-cart button.btn.btn-success.form-submit {
+        float: left;
+    }
+    #block-system-main div.commerce-buy-one-click-button-wrapper {
+        float: left;
+    }
+}

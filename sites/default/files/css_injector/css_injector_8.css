@@ -1,0 +1,22 @@
+.content {
+    height: 7em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.card {
+    background: #eee;
+}
+
+.btn-learn-more {
+    border-radius: 0;
+    background-color: #555;
+}
+
+.card-container {
+    display: inline-block;
+    float: none;
+    width: 33%;
+}

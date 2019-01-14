@@ -1,0 +1,171 @@
+.add-on {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+}
+
+.btn-colorproof {
+    border-radius: 0px;
+    border: 2px solid;
+    padding: 10px 55px;
+}
+
+.sub-home-nav {
+    list-style: none;
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.sub-home-nav li {
+    display: -webkit-inline-box;
+    padding: 3rem;
+}
+
+.sub-home-nav li a {
+    color: white;
+    font-size: 2rem;
+}
+
+@media screen and (min-width: 1700px) {
+    .sub-home-nav {
+        margin-bottom: 11px;
+    }
+    .sub-home-nav li a {
+        font-size: 3rem;
+    }
+}
+
+.colorproof-story {
+    left:60%;
+    right:0;
+    margin: 0 3em;
+}
+
+@media screen and (min-width: 1920px) {
+    .colorproof-story{
+        margin: 0 7em;
+    }
+}
+
+
+.slice-add-on {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+@media screen and (max-width: 1440px) {
+    .slice-add-on h2 {
+        font-size: 36px;
+    }
+    .slice-add-on h3 {
+        font-size: 25px;
+    }
+}
+
+.color-care-add-on {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#product-carousel .carousel-inner .item {
+    padding: 80px;
+}
+#product-carousel .carousel-inner .item img {
+    margin: 0 auto;
+}
+#product-carousel .carousel-control {
+    top: 90%;
+    width: 60%;
+}
+#product-carousel .carousel-control.left, #product-carousel .carousel-control.right {
+    background: unset;
+}
+
+#all-the-good {
+    background:url(/sites/default/files/pictures/img-bg.png) no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+#color-proof-hair {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.9;
+}
+#color-proof-hair h2 {
+    margin: 0;
+}
+
+#about-our-products .link-more {
+    position: initial;
+}
+
+.shop-item:parent {
+    overflow: hidden;
+}
+
+@keyframes shop-item-over {
+    from {opacity: 1;}
+    to {opacity: 0.5;}
+}
+
+.shop-item:hover {
+  opacity: 0.5;
+  animation-name: shop-item-over;
+  animation-duration: 1s;
+}
+
+.shop-item-name {
+  margin:0;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, 0);
+}
+
+@keyframes item-name-over {
+  from {top: 40px;}
+    to {top: 30%;}
+}
+
+#get-look-div .col-md-8{
+    text-align: left;
+}
+
+.shop-item:hover + .shop-item-name{
+  top: 30%;
+  animation-name: item-name-over;
+  animation-duration: 1s;
+}
+
+@keyframes link-more-over {
+  from {bottom: 40px;}
+    to {bottom: 30%;}
+}
+
+.shop-item:hover ~ .link-more{
+  bottom: 30%;
+  animation-name: link-more-over;
+  animation-duration: 1s;
+}
+
+.region.region-navigation {
+    display: inline-block;
+    float: right;
+}
+
+nav {
+    width: 1400px;
+    margin: 30px auto;
+}

@@ -1,0 +1,65 @@
+.main-container section {
+    padding-top: 70px;
+}
+.views-row {
+    width: 33%;
+    text-align: center;
+    display: inline-block;
+    padding: 2em;
+}
+
+.views-row img {
+    margin: 0 auto;
+}
+
+.views-field.views-field-shopify-product-images {
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.views-row form > div {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+
+
+button.shopify-add-to-cart-button {
+    background-color: transparent;
+    color: black;
+    border-color: black;
+    border-radius: 0px;
+}
+button.shopify-add-to-cart-button:hover {
+    background-color: transparent;
+    color: black;
+    border-color: black;
+    border-radius: 0px;
+}
+.form-type-select.form-group {
+    display: none;
+}
+
+div.shopify-price {
+    display: block;
+    font-size: 25px;
+    margin: 0px;
+    padding: 20px 0;
+    border-top: 1px dotted;
+    border-bottom: 1px dotted;
+    margin-bottom: 40px;
+    flex: 1 100%;
+}
+
+.views-row form div.form-item-quantity {
+    flex: 1;
+    margin-bottom: 0px;
+}
+.views-row form div.form-actions {
+    flex: 1;
+    margin-bottom: 0px;
+}

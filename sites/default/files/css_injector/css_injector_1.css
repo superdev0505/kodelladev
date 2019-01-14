@@ -1,0 +1,436 @@
+.align-center {
+    margin: 0 auto;
+}
+
+.page-header {
+    display:none;
+}
+
+video {
+    width: 100%;
+}
+
+.m-0 { margin: 0}
+.m-x-0 { margin-left: 0; margin-right: 0;}
+.m-y-0 { margin-top: 0; margin-bottom: 0;}
+.m-t-0 { margin-top: 0}
+.m-b-0 { margin-bottom: 0}
+.m-l-0 { margin-left: 0}
+.m-r-0 { margin-right: 0}
+
+.p-0 { padding: 0}
+.p-x-0 { padding-left: 0; padding-right: 0;}
+.p-y-0 { padding-top: 0; padding-bottom: 0;}
+.p-t-0 { padding-top: 0}
+.p-b-0 { padding-bottom: 0}
+.p-l-0 { padding-left: 0}
+.p-r-0 { padding-right: 0}
+
+/*Margin and Padding helpers*/
+/*xs*/
+.p-xs { padding: .25em; }
+.p-x-xs { padding: 0 .25em; }
+.p-y-xs { padding: .25em 0 ; }
+.p-t-xs { padding-top: .25em; }
+.p-r-xs { padding-right: .25em; }
+.p-b-xs { padding-bottom: .25em; }
+.p-l-xs { padding-left: .25em; }
+.m-xs { margin: .25em; }
+.m-x-xs { margin: 0 .25em; }
+.m-y-xs { margin: .25em 0 ; }
+.m-r-xs { margin-right: .25em; }
+.m-l-xs { margin-left: .25em; }
+.m-t-xs { margin-top: .25em; }
+.m-b-xs { margin-bottom: .25em; }
+/*sm*/
+@media (min-width:768px){
+/*sm*/
+.p-sm { padding: .5em; }
+.p-x-sm { padding: 0 .5em; }
+.p-y-sm { padding: .5em 0 ; }
+.p-t-sm { padding-top: .5em; }
+.p-r-sm { padding-right: .5em; }
+.p-b-sm { padding-bottom: .5em; }
+.p-l-sm { padding-left: .5em; }
+.m-sm { margin: .5em; }
+.m-x-sm { margin: 0 .5em; }
+.m-y-sm { margin: .5em 0 ; }
+.m-t-sm { margin-top: .5em; }
+.m-r-sm { margin-right: .5em; }
+.m-b-sm { margin-bottom: .5em; }
+.m-l-sm { margin-left: .5em; }
+}
+
+/*md*/
+@media (min-width: 992px){
+.p-md { padding: 1em; }
+.p-x-md { padding: 0 1em; }
+.p-y-md { padding: 1em 0; }
+.p-t-md { padding-top: 1em; }
+.p-r-md { padding-right: 1em; }
+.p-b-md { padding-bottom: 1em; }
+.p-l-md { padding-left: 1em; }
+.m-md { margin: 1em; }
+.m-x-md { margin: 0 1em; }
+.m-y-md { margin: 1em 0 ; }
+.m-t-md { margin-top: 1em; }
+.m-r-md { margin-right: 1em; }
+.m-b-md { margin-bottom: 1em; }
+.m-l-md { margin-left: 1em; }
+}
+
+/*lg*/
+@media (min-width: 1200px){
+.p-lg { padding: 1.5em; }
+.p-x-lg { padding: 0 1.5em; }
+.p-y-lg { padding: 1.5em 0; }
+.p-t-lg { padding-top: 1.5em; }
+.p-r-lg { padding-right: 1.5em; }
+.p-b-lg { padding-bottom: 1.5em; }
+.p-l-lg { padding-left: 1.5em; }
+.m-lg { margin: 1.5em; }
+.m-x-lg { margin: 0 1.5em; }
+.m-y-lg { margin: 1.5em 0; }
+.m-t-lg { margin-top: 1.5em; }
+.m-r-lg { margin-right: 1.5em; }
+.m-b-lg { margin-bottom: 1.5em; }
+.m-l-lg { margin-left: 1.5em; }
+}
+/*xl*/
+.p-xl { padding: 3em; }
+.p-x-xl { padding: 0 3em; }
+.p-y-xl { padding: 3em 0 ; }
+.p-t-xl { padding-top: 3em; }
+.p-r-xl { padding-right: 3em; }
+.p-b-xl { padding-bottom: 3em; }
+.p-l-xl { padding-left: 3em; }
+.m-xl { margin: 3em; }
+.m-x-xl { margin: 0 3em; }
+.m-y-xl { margin: 3em 0; }
+.m-t-xl { margin-top: 3em; }
+.m-r-xl { margin-right: 3em; }
+.m-b-xl { margin-bottom: 3em; }
+.m-l-xl { margin-left: 3em; }
+
+.b-1 {
+    border: 1px solid;
+}
+.b-y-1 {
+    border-top: 1px solid;
+    border-bottom:  1px solid;
+}
+.b-x-1 {
+    border-left: 1px solid;
+    border-right:  1px solid;
+}
+.b-l-1 {
+    border-left: 1px solid;
+}
+.b-r-1 {
+    border-right: 1px solid;
+}
+.b-t-1 {
+    border-top: 1px solid;
+}
+.b-b-1 {
+    border-bottom: 1px solid;
+}
+
+.b-2 {
+    border: 2px solid;
+}
+.b-y-2 {
+    border-top: 2px solid;
+    border-bottom:  2px solid;
+}
+.b-x-2 {
+    border-left: 2px solid;
+    border-right:  2px solid;
+}
+.b-l-2 {
+    border-left: 2px solid;
+}
+.b-r-2 {
+    border-right: 2px solid;
+}
+.b-t-2 {
+    border-top: 2px solid;
+}
+.b-b-2 {
+    border-bottom: 2px solid;
+}
+
+.black-color {
+    color:#000 !important;
+}
+.black-bg {
+    background-color: #000 !important;
+}
+.white-color {
+    color: white !important
+}
+.white-bg {
+    background-color: white;
+}
+.transparent {
+    background: transparent;
+}
+.lightgray-color {
+    color: #d8d8d8
+}
+.lightgray-bg {
+    background-color: #d8d8d8
+}
+.lightgray2-color {
+    color: #c3c3c3
+}
+.lightgray2-bg {
+    background-color: #c3c3c3
+}
+.overlay-bg {
+    background-color: rgba(0,0,0,0.2)
+}
+.overlay-color {
+    color: rgba(0,0,0,0.2)
+}
+.deepink-color {
+    color: #d31245;
+}
+.deepink-bg {
+    background-color: #d31245;
+}
+.deepgreen-color {
+    color: #4d6e18;
+}
+.deepgreen-bg {
+    background-color: #4d6e18
+}
+.lightorange-color {
+    color: #ea881c;
+}
+.lightorange-bg {
+    background-color: #ea881c;
+}
+.purple-color {
+    color: #7a2b83;
+}
+.purple-bg {
+    background-color: #7a2b83;
+}
+.cyan-color {
+    color: #00a8cc;
+}
+.cyan-bg {
+    background-color: #00a8cc;
+}
+
+.letter-spacing-1 {
+    letter-spacing: 0.1em;
+}
+.letter-spacing-2 {
+    letter-spacing: 0.2em;
+}
+.letter-spacing-3 {
+    letter-spacing: 0.3em;
+}
+sub, sup {
+    font-size: 15%;
+    bottom: 0;
+}
+
+.height-100 {
+    height: 100vh;
+}
+
+.seperator {
+    width: 50%;
+    text-align: center;
+    margin: 40px auto;
+    border-top: 1px solid;
+}
+.width-25 {
+    width: 25%;
+}
+.width-50 {
+    width: 50%;
+}
+.width-75 {
+    width: 75%;
+}
+.width-100 {
+    width: 100%;
+}
+
+/* font settings */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,700,100i,200i,300i,400i,500i,700i');
+h1 {
+    font-family: 'Raleway', serif;
+    font-weight: 200;
+    font-size: 64px;
+}
+h1.lead{
+    font-family: 'Raleway', serif;
+    font-weight: 200;
+    font-size: 72px;
+}
+h2 {
+    font-family: 'Raleway', serif;
+    font-weight: 100;
+    font-size: 48px; 
+}
+h2.lead{
+    font-family: 'Raleway', serif;
+    font-weight: 200;
+    font-size: 52px;
+}
+h3 {
+    font-weight: 100;
+    margin: 0px;
+}
+h3.lead {
+    font-weight: 200;
+    font-size: 32px;
+    margin: 0px;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+}
+p.lead {
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+    font-weight: 200;
+}
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+}
+h4.lead {
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+    font-weight: 200;
+    margin: 0px;
+}
+a {
+    font-family: 'Raleway', sans-serif;
+}
+
+.italic {
+    font-style: italic;
+}
+.bold {
+    font-weight: 600 !important;
+}
+
+.max-content-width {
+    width: max-content;
+}
+.row {
+    position: relative;
+}
+
+body #navbar.scrolled {
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+
+body #navbar.scrolled .navbar-btn.desktop-mode {
+    display: none;
+}
+body #navbar.scrolled .navbar-btn.mobile-mode {
+    display: block;
+    padding: 0px;
+}
+
+body #navbar.scrolled nav {
+    margin: 24px auto;
+}
+
+body #navbar .navbar-right.scroll-mode {
+    display: none;
+}
+
+body .navbar-default li a {
+    color: white!important;
+}
+
+body #navbar.scrolled li a {
+    color: black!important;
+}
+
+body #navbar.scrolled .navbar-right.scroll-mode {
+    display: block;
+}
+
+body #navbar.scrolled .navbar-right.desktop-mode {
+    display: none;
+}
+
+body #navbar li a {
+    border: none;
+    margin: 0px;
+    padding: 9px 12px;
+}
+body #navbar.scrolled li a {
+    /*border-bottom: 3px solid white;*/
+}
+.navbar-nav > .active > a, .navbar-nav > .active > a:hover {
+    border: none !important;
+    /*border-bottom: 3px solid #d31245 !important;*/
+    border-radius: 0px !important;
+}
+
+.navbar-nav > li > a:hover {
+    border: none !important;
+}
+
+nav#mobile-mode {
+    margin: 0;
+}
+
+.link-more {
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.link-more, .link-more:hover {
+    color: white;
+    text-decoration: none;
+    padding: 0px 5px;
+    border-bottom: 2px solid;
+}
+
+.bottom-20 {
+    bottom: 20px;
+}
+.bottom-40 {
+    bottom: 40px;
+}
+.bottom-80 {
+    bottom: 80px;
+}
+
+.align-bottom {
+    position: absolute;
+    bottom: 0px;
+    padding: 0 100px 60px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 63%;
+}
+
+/*@media screen and (max-width: 600px) {*/
+    body #navbar li a {
+        text-shadow: 2px 2px rgba(0,0,0, 0.5);
+    }
+/*}*/
+
+body #navbar.scrolled li a {
+    text-shadow: none;
+}

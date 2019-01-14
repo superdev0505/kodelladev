@@ -1,0 +1,31 @@
+article {
+    display: -webkit-inline-box;
+    padding: 3em 6em;
+}
+article header {
+    display: none;
+}
+.field-name-field-perks-image {
+    width: 50%;
+}
+.field-name-field-perks-content {
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 40px;
+    line-height: 2em;
+}
+
+@media screen and (max-width: 600px) {
+    article {
+        display: block;
+        padding: 0px;
+    }
+    .field-name-field-perks-image {
+        width: 100%;
+    }
+    .field-name-field-perks-content {
+        width: 100%
+    }
+}
